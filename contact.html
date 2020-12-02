@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ⱥymen's Contact Detials</title>
+</head>
+<body>
+	<h3>Contact Details</h3>
+	<ul>
+		<li>Phone</li>
+		<ol>
+			<li>9876543210</li>
+			<li>7894561230</li>
+		</ol>
+		<li>Email</li>
+		<ul>
+			<li>something@something.com</li>
+		</ul>
+		<li>Address</li>
+		<ul>
+			<li>123/A, XYZ Colony, ABC Street, opp PQR, Somewhere in this World</li>
+		</ul>
+	</ul>
+
+	<hr>
+
+	<h4>To Contact us please enter your Details below and we'll get in touch</h4>
+	<form action="mailto:aymens1991@gmail.com" method="post" enctype="text/plain">
+	<!--The "mailto : emailAddress" property of attribute "action" will send whatever is in the input field to the specified EMAIL when SUBMIT is pressed-->
+	<!--The "enctype" stands for ENCODING TYPE and it tells that our FORM has PLAIN TEXT (in this case)-->
+		<label>Your Name</label>
+		<input type="text" name="yourName" value="" placeholder="Enter your name here">
+		<br><br>
+		<label>Your Email</label>
+		<input type="email" name="yourEmail" value="" placeholder="Enter your email address here">
+		<br><br>
+		<textarea name="yourMessage" rows="8" cols="80"></textarea>
+		<h6>Note : Before Submitting you must agree to our Privacy <strong>terms and conditions</strong>. Do you agree ?
+		<input type="checkbox" name="">
+		</h6>
+		<br>
+		<input type="submit" name="">
+	</form>
+</body>
+</html>
